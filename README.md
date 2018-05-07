@@ -41,7 +41,7 @@ Skriptid (käsikiri) oli kirjtatud Python'i ja Selenium'i vahendusel.
 
 ### Testi käitivamine 
 
-Paigalda [Python](https://python.org/) v2.7+ oma arvutisse.
+Paigaldage [Python](https://python.org/) v2.7+ oma arvutisse.
 
 Laadige repository alla. Muudke sisestusparameetreid enne testide käivitamist. Neid hoitakse:
 
