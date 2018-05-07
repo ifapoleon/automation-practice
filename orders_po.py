@@ -11,7 +11,7 @@ class Order(object):
     def __init__(self, driver):
         self.driver = driver
         self.locator = NewOrderLocators
-        self.timer = 10
+        self.timer = 60
 
     def shopTShorts(self):
         self.driver.find_element(*self.locator.SECTION).click()

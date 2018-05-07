@@ -10,7 +10,7 @@ class SignInAndCreate(object):
     def __init__(self, driver):
         self.driver = driver
         self.locator = CreateAccountLocators
-        self.timer = 10
+        self.timer = 60
 
     def signIn(self):
         WebDriverWait(self.driver, self.timer).until(
